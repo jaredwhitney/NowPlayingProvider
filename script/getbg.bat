@@ -1,0 +1,1 @@
+@for /F "tokens=2*skip=2" %%a in ('reg query HKU /f "%USER%" /s /v WallPaper')do @echo %%b&exit/b
